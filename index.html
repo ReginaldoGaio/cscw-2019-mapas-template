@@ -16,25 +16,24 @@
         <p><img src="res/c1-Butters.jpg" height="300"><br/>Sejam bem-vindos aos meus mapas. Apresento-vos um lugar que gostei de conhecer e também outras duas sugestões de amigos.</p>
     </section>
     <section id='Meu1' class='active'>
-        <p class="timepoint">Fevereiro de 2018</p>
+        <p class="timepoint">Reginaldo Gaio - Fevereiro de 2018</p>
         <h3>Prainhas do Pontal do Atalaia</h3>
         <p><img src="res/pontal_do_atalaia.jpg" width="350"><br/>A escadaria que dá acesso às Prainhas do Pontal do Atalaia parece levar ao paraíso. Do alto do morro, o que se vê é um cenário paradisíaco. Difícil não ficar hipnotizado pela vista no topo da escada, de onde se vê a areia branca, o mar colorido e o verde ainda preservado na vizinha Ilha do Farol. A descida é íngreme e são muitos degraus. Nada que uma paradinha para as fotos não ajude.</p>
     </section>
      <section id='Amigo1' class='active'>
-        <p class="timepoint">Dica do Amigo1 - Setembro 2018</p>
-        <h3>Nova York</h3>
-        <p><img src="https://exploreniteroi.files.wordpress.com/2015/08/img_2942.jpg" width="350"/><br/>Mostra a carteirinha que tu ganha aquele desconto marotão</p>
+        <p class="timepoint">Renato Machado - Setembro de 2018</p>
+        <h3>One World Trade Center</h3>
+        <p><img src="res/oneworld.jpg" width="350"><br/><br>Os elevadores SkyPod sobem 102 andares em 47 segundos. Este passeio surpreendente revela a transformação da cidade de Nova York de terras instáveis para a notável floresta de arranha-céus de hoje. One World Trade Center também é conhecido como a Freedom Tower.</p>
     </section>
     <section id='Amigo2' class='active'>
-        <p class="timepoint">Dica do Amigo2 - Em uma época remota</p>
-        <h3>Cais de Paraty</h3>
-        <p><img src="res/c1-escuna-turismo-paraty.jpg" width="350" /><br/><p style="font-size:xx-small;">Veja mais: <a href="http://paratyvip.com.br/cais-de-turismo-de-paraty">visitmalbork.pl</a></p>
-        <br/>Cais de Paraty!!!.</p>
+        <p class="timepoint">Caio Barra - Novembro de 2018</p>
+        <h3>Radio City Music Hall</h3>
+        <p><img src="res/radiocity.jpg" width="350"><br/><br>O Radio City Music Hall é uma casa de espectáculos localizada no Rockefeller Center de Nova York. Conhecido como o Local de Espectáculos da Nação, o Radio City Music Hall abriu ao público no dia 27 de dezembro de 1932.</p>
     </section>
     <section id='Amigo3' class='active'>
-          <p class="timepoint">Dica do Amigo3 - Onde sonhos se tornam realidade</p>
-          <h3>Disneyland</h3>
-          <p><img src="https://americanetmobile.com/wp-content/uploads/2016/03/mickey-minnie-goofy-disneyland.jpg" width="350" /><br/>
+          <p class="timepoint">Thales Ferreira - Julho de 2018</p>
+          <h3>Yad Vashem</h3>
+          <p><img src="res/yad_vashem.jpg" width="350"><br/><br>Localizado no sopé do Monte Herzl, no Monte da Recordação (Har HaZikaron), em Jerusalém, Yad Vashem é um complexo de cerca de 18 hectares que contém o moderno Museu da História do Holocausto, vários memoriais, como o Memorial das Crianças e a Sala da Memória, o Museu de Arte do Holocausto, esculturas, lugares comemorativos ao ar livre, como o Vale das Comunidades, a sinagoga, arquivos, um instituto de pesquisa, biblioteca, uma editora e um centro educacional, a International School for Holocaust Studies (Escola Internacional para o Estudo do Holocausto).</p>
     </section>
 </div>
 <script>
@@ -43,7 +42,7 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v10',
         bearing: 0,
-        center: [-43.106577,-22.896528],
+        center: [-43.106577, -22.896528],
         zoom: 17,
         speed: 0.8,
         pitch: 0
@@ -51,19 +50,19 @@ var map = new mapboxgl.Map({
 var chapters = {
     'welcome': {
         bearing: 0,
-        center: [-43.106791,-22.897227],
+        center: [-43.106791, -22.897227],
         zoom: 17,
         speed: 0.8,
         pitch: 0
     },
     'Meu1': { //Meu
         bearing: 0,
-        center: [-42.012727,-22.987969],
+        center: [-42.012727, -22.987969],
         zoom: 19,
         pitch: 54.00
     },
     'Amigo1': { //Amigo 1
-        center: [-43.1065268-22.8987912],
+        center: [-74.013380, 40.713404],
         bearing: 1.60,
         zoom: 18.89,
         speed: 0.6,
@@ -71,14 +70,14 @@ var chapters = {
     },
     'Amigo2': { //Amigo 2
         bearing: 1.00,
-        center: [-44.709642, -23.221166],
+        center: [-73.979977, 40.759981],
         zoom: 18,
         speed: 0.6,
         pitch: 60
     },
    'Amigo3': { //Amigo 3
         bearing: 1.00,
-        center: [-81.563627, 28.385252],
+        center: [35.176536, 31.773359],
         zoom: 18,
         speed: 0.6,
         pitch: 60
